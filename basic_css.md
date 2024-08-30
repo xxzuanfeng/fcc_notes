@@ -1,13 +1,13 @@
 # Learn Basic  CSS
 
 ```html
-<style></style>								<!--添加样式表-->
+<style></style>								  <!--添加样式表-->
 <link rel="stylesheet" href="styles.css">		<!--链接样式表-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-											<!--使页面样式在移动设备、电脑上相似-->
-<div></div>									 <!--用于设计布局-->	
-<article></article>							  <!--包含多个具有相关信息的元素。-->
-<hr>										<!--自闭合，分隔符-->
+											 <!--使页面样式在移动设备、电脑上相似-->
+<div></div>									  <!--用于设计布局-->	
+<article></article>							   <!--包含多个具有相关信息的元素。-->
+<hr>										 <!--自闭合，分隔符-->
 ```
 
 
