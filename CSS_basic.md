@@ -14,16 +14,25 @@
 
 ```css
 /*几类选择器*/
-element {								    /*元素选择器，指定元素设置属性添加样式,*/	
+/*全局选择器*/
+* {
+    styles
+}
+
+/*元素选择器，指定元素设置属性添加样式,*/	
+element {								    
 	styles	
 }
-.class-name {								/*类选择器*/
+/*类选择器*/
+.class-name {								
  	styles
 }
-#menu {									   /*id选择器*/
+/*id选择器*/
+#menu {									   
 	styles
 }
-a:visited { 								/*伪选择器*/
+/*伪选择器*/
+a:visited { 								
     propertyName: propertyValue;
 }
 a:hover {									/*悬停伪选择器*/
@@ -35,7 +44,7 @@ a:active { 									/*网页被点击时伪选择器*/
 selector1, selector2 {						/*选择多个元素时，用逗号隔开*/
   property: value;
 }
-.item p {								   /*选择类item下所有p元素*/
+.item p {								   /*后代选择器 选择类item下所有p元素*/
     styles
 }
 

@@ -3,7 +3,7 @@
 ```css
 vh								/*窗口高度，1vh=1%窗口*/
 
-rem								/*相对html根元素，与html字体大小有关*/
+rem								/*相对html根元素字体大小，与html字体大小有关*/
 p:last-of-type { }				/*伪类选择器，选则p元素最后一个*/
 width: unset;					/*移除之前设置的样式*/
 vertical-align: middle;			/*调整垂直位置*/
