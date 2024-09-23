@@ -12,7 +12,7 @@ flex-direction: column-reverse;							/*垂直轴，从下到上*/
 flex-wrap: wrap;										/*容器太小时，换行*/
 flex-wrap: nowwrap;										/*保持不变*/
 justify-content: center;								/*定义沿主轴（main axis）定位*/
-align-items: center;									/*定义沿横轴（cross axis）定位*/
+align-items: center;									/*定义沿交叉轴（cross axis）定位*/
 object-fit: cover;										/*保持纵横比，填充容器，进行裁剪以适应*/
 
 /*元素之间间隔*/

@@ -63,6 +63,9 @@ max-width: 500px;							/*最大宽度为500px*/
 font-family: sans-serif;					 /*更改字体*/
 font-style: italic；							/*字体为斜体*/
 font-size: 40px;							/*字体尺寸为40px*/
+tr[class="total"]							/*匹配拥有指定值的属性的元素*/
+tr.total									/*匹配所有包含total属性的tr元素*/
+td:nth-of-type(3)							/*匹配第三个元素*/
 ```
 
 
